@@ -1,0 +1,6 @@
+#зад_3
+list1 = ['a','b','c']
+list2 = ['x','y','z']
+
+res=list1+list2
+print(res)

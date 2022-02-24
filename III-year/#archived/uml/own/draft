@@ -1,0 +1,107 @@
+Управлять Автомобилем
+Управление Парковками
+
+Управление Парковочным Местом
+Управлять Владельцем Автомобиля
+Управление Сборами За Парковку
+
+Поиск Парковки
+Выделенная Парковка
+Проверьте Расходы
+
+Сбор Платежей
+Рассчитать Плату За Парковку
+Назначить Парковку
+
+-- -- -- -- --
+
+Manage Car
+Manage Parking Slots
+
+Manage Parking Space
+Manage Car Owner
+Manage Parking Fees
+
+Search Parking
+Allot Parking
+Check Charges
+
+Collect Payments
+Calculate Parking Changes
+Assign Parking
+
+
+
+-- -- -- -- --
+
+User Class
++ user_id: int;
++ user_role_id: int;
++ user_name: string;
++ user_email: string;
++ user_dob: date;
++ user_address: string;
+
++ addUser()
++ editUser()
++ deleteUser()
++ searchUser()
+
+Permission
++ permission_id: int;
++ permission_role: int;
++ permission_title: string;
++ permission_module: string;
++ permission_description: string;
+
++ addPermission()
++ editPermission()
++ deletePermission()
++ searchPermission()
+
+Car Class
++ car_id: int;
++ car_number: string;
++ car_type: string;
++ car_category: string;
++ car_description: string;
++ car_owner_id: int;
+
++ addCar()
++ editCar()
++ deleteCar()
++ searchCar()
+
+Car Number Class
+
++ car_number_id: int;
++ car_number_type: string;
++ car_number_description: string;
++ car_number_customer_id: int;
+
++ addCarNumber()
++ editCarNumber()
++ deleteCarNumber()
++ searchCarNumber()
+
+Parking Slot Class
++ parking_slot_id: int;
++ parking_slot_type: string;
++ parking_slot_description: string;
++ parking_slot_car_id: int;
+
++ addParkingSlot()
++ editParkingSlot()
++ deleteParkingSlot()
++ searchParkingSlot()
+
+Parking Fees Class
++ parking_fees_id: int;
++ parking_fees_type: string;
++ parking_fees_description: string;
++ parking_fees_amount: string;
+
++ addParkingFees()
++ editParkingFees()
++ deleteParkingFees()
++ searchParkingFees()
