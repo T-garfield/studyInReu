@@ -1,0 +1,14 @@
+{
+  "name": "assignments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01-http-request-client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alykoshin <alykoshin@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "client":{
+    "port": 8124,
+    "host": "localhost"
+  },
+  "server": {
+    "port": 8124,
+    "host": "localhost"
+  }
+}

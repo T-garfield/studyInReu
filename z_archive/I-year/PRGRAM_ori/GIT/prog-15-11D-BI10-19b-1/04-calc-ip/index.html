@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Калькулятор IP-адресов</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="./index.js"></script>
+</head>
+<body>
+
+<div class="group">
+  <div>
+    <label for="ip1">IP адрес 1:</label>
+    <input id="ip1" type="text" class="ip-address" value="192.168.0.1"/>
+  </div>
+
+  <div>
+    <label for="mask1">Маска 1:</label>
+    <input id="mask1" type="text" class="ip-address" value="255.255.255.0"/>
+  </div>
+</div>
+
+<div class="group">
+  <div>
+    <label for="ip2">IP адрес 2:</label>
+    <input id="ip2" type="text" class="ip-address" value="192.168.0.2"/>
+  </div>
+
+  <div>
+    <label for="mask2">Маска 2:</label>
+    <input id="mask2" type="text" class="ip-address" value="255.255.255.0"/>
+  </div>
+</div>
+
+<input type="button" class="btn" onclick="doCalc()" value="Вычислить"/>
+
+<div>
+  <h3>Для первого адреса и маски:</h3>
+
+  <div>
+    <label for="network1">Адрес подсети 1:</label>
+    <input id="network1" type="text" class="ip-address" value="" disabled/>
+  </div>
+
+  <div>
+    <label for="broadcast1">Широковещ.адрес 1:</label>
+    <input id="broadcast1" type="text" class="ip-address" value="" disabled/>
+  </div>
+
+  <div>
+    <label for="ipFirstAvail">Первый доступный адрес:</label>
+    <input id="ipFirstAvail" type="text" class="ip-address" value="" disabled/>
+  </div>
+
+  <div>
+    <label for="ipLastAvail">Последний доступный адрес:</label>
+    <input id="ipLastAvail" type="text" class="ip-address" value="" disabled/>
+  </div>
+
+  <div>
+    <label for="numAvail">Число доступных адресов:</label>
+    <input id="numAvail" type="text"  value="" class="number" disabled/>
+  </div>
+
+  <h3>Для обоих адресов и :</h3>
+
+  <div>
+    <label for="sameNet">Находятся в одной подсети:</label>
+    <input id="sameNet" type="text" class="boolean" value="" disabled/>
+  </div>
+
+</div>
+</body>
+</html>
