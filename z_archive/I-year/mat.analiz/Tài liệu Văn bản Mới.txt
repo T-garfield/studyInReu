@@ -1,0 +1,25 @@
+1 - Найти область определени
+
+Те, кто не будут знать таблицы производных, таблицы эквивалентностей, формулы Тейлора, будут сразу мной казнены!
+
+giai pt b3:
+https://hoidaptructuyen.vn/cau-hoi/phuong-trinh-bac-3-co-bao-nhieu-nghiem/
+https://vi.wikipedia.org/wiki/Ph%C6%B0%C6%A1ng_tr%C3%ACnh_b%E1%BA%ADc_ba
+
+lim:
+https://www.mathway.com/vi/Calculus
+https://www.symbolab.com/solver/limit-calculator/%5Clim_%7Bx%5Cto%5Cinfty%7D%5Cleft(%5Cleft(-2x%2B1%5Cright)e%5E%7B-x-2%7D%5Cright)
+
+Đạo hàm:
+https://www.symbolab.com/solver/derivative-calculator/%5Cfrac%7Bd%7D%7Bdx%7D%5Cleft(%5Cfrac%7B%5Cleft(x%5E%7B2%7D-18x-45%5Cright)%7D%7B%5Cleft(x-9%5Cright)%5E%7B2%7D%7D%5Cright)
+
+Giải PT B3:
+https://www.symbolab.com/solver/exponential-equation-calculator/e%5E%7B-x-2%7D%3D0
+https://geleot.ru/education/math/algebra/equation/cubic_equation
+
+Tìm tiệm cận:
+https://math.semestr.ru/math/asymptote.php
+
+Vẽ đồ thị:
+https://www.desmos.com/calculator
+
